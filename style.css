@@ -1,0 +1,83 @@
+
+
+body {
+    font-family: 'Afacad', sans-serif;
+    background: #ffff;
+    padding: 1rem;
+    stroke: none;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-family: 'Afacad', sans-serif;
+    display: flex;
+    font-style: normal;
+font-weight: 500;
+line-height: 100%;
+width: 1343px;
+justify-content: space-between;
+padding: 25px 25px 25px 24px;
+align-items: center;
+flex-shrink: 0;
+background-color: #e13325;
+border-radius: var(--Rounded, 20px);
+}
+#buttoon {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem; 
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    
+  }
+  button {
+    font-family: 'Afacad', sans-serif;
+    font-style: normal;
+    
+font-weight: 500;
+font-size: 2rem;
+    stroke: none;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: var(--Rounded, 15px);
+    border: none;
+background: #FECE5C;
+
+
+  }
+  #result {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: pre-wrap;
+  }
+
+  #send-btn {
+    flex-shrink: 0;
+  }
+  
+
+  #typebox {
+    flex: 1;
+    min-width: 200px;
+    font-family: 'Afacad', sans-serif;
+    font-style:initial;
+    
+font-weight: 50;
+font-size: 1rem;
+    stroke: none;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    border-radius: var(--Rounded, 15px);
+  
+    
+  } 
+
+  #tiles-container {
+    display:none;
+  }
